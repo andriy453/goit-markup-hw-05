@@ -17,9 +17,9 @@
     <nav class="nav">
         <a class="lo_go  link" href="index.html" >WEB<span class="logo_2">Studio</span></a>
         <ul class="list-heder list">
-            <li class="list__item"><a class="link-heder link" href="./index.html">Studio</a></li>  
-            <li class="list__item"><a class="link-heder link" href="./portfolio.html">Portfolio</a></li>
-            <li class="list__item"><a class="link-heder link" href="" >Contacts</a></li>
+            <li class="list__item"><a class="link-heders  scaleX-link link" href="./index.html">Studio</a></li>  
+            <li class="list__item"><a class="link-heder  scaleX-link link" href="./portfolio.html">Portfolio</a></li>
+            <li class="list__item"><a class="link-heder  scaleX-link link" href="" >Contacts</a></li>
         </ul> 
     </nav>
         <address class="adres">
@@ -37,8 +37,11 @@
     <div class="conteiner">
      
         <h1 class="hero-title">Effective Solutions for Your Business</h1>
-    <button class="button" type="button"> Order Service</button>
+    <button data-modal-open class="button" type="button"> Order Service</button>
     </div>
+    <!-- -----------------------modal------------------------- -->
+
+    <div data-modal  class="backdrop is-hidden"><div class="modal"><button class="button-modal" data-modal-close ><svg width=8 height="8"><use href="./images/sprite.svg#icon-close"></use></svg> </button></div></div>
 </section>
 <section class="section">
   <div class="conteiner"> <h2 hidden class="visually-hidden">our advantages</h2>
@@ -280,5 +283,6 @@
 </div>
     </div>
    </footer>
+   <script src="./js/modal.js"></script>
 </body>
 </html>
